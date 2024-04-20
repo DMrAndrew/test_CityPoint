@@ -32,6 +32,8 @@
 
             ['eq',  "return 'EQ'"],
 
+            ['like', "return 'LIKE'"],
+
             ['and', "return 'AND'"],
             ['or', "return 'OR'"],
 
@@ -63,6 +65,9 @@
 
                [ "EQ ( EXPR , EXPR )",
                  "$$ = new Tokens\\EqExpr($3, $5)" ],
+
+               [ "LIKE ( EXPR , EXPR )",
+                 "$$ = new Tokens\\LikeExpr($3, $5)" ],
 
                [ "AND ( EXPR , EXPR )",
                  "$$ = new Tokens\\AndExpr($3, $5)" ],

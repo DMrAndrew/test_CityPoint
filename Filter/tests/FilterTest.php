@@ -99,4 +99,26 @@ class FilterTest extends TestCase
         $this->assertEquals( $expect, $ast, 'not valid or' );
     }
 
+    public function likeApplyExpr()
+    {
+        $expect = new T\LikeExpr(
+            new T\FldVal('ApplyFld'),
+            new T\StrVal('"%val%ue%"'),
+        );
+        $this->assertTrue($expect->apply(['ApplyFld' => 'new_valDOTue']));
+        $this->assertFalse($expect->apply(['ApplyFld' => 'new_val_Dot_ue']));
+    }
+
+    public function testLikeExpr()
+    {
+        $expect = new T\LikeExpr(
+            new T\FldVal('ApplyFld'),
+            new T\StrVal('"%val%ue%"'),
+        );
+
+        $ast = $this->filter->getAst('like(ApplyFld, "%val%ue%")');
+        $this->assertEquals($expect, $ast, 'Not valid field with string ast');
+    }
+
+
 }
