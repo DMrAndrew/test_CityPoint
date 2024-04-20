@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MessDetectorOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCSFixerOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCodeSnifferOptionsConfiguration">
+    <option name="highlightLevel" value="WARNING" />
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/Filter/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/Filter/vendor/composer" />
+      <path value="$PROJECT_DIR$/Filter/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/Filter/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/Filter/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/Filter/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/Filter/vendor/phake/phake" />
+      <path value="$PROJECT_DIR$/Filter/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/Filter/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/Filter/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/Filter/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/Filter/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/Filter/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/Filter/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/Filter/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/Filter/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/Filter/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/Filter/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/Filter/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/Filter/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/Filter/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/Filter/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/Filter/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/Filter/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/Filter/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/Filter/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/Filter/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/Filter/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/Filter/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/Filter/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/Filter/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/Filter/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/Filter/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/Filter/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/Filter/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/Filter/vendor/sebastian/version" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.4" />
+  <component name="PhpStanOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/Filter/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
+  <component name="PsalmOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+</project>
